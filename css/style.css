@@ -1,0 +1,200 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+}
+
+.navbar{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color:#d60000;
+    width: 100%;
+    min-height: 1%;
+    z-index: 1; 
+}
+
+.nav{
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    margin-right: 15%;
+}
+
+.logo{
+    flex: 1 1 auto;
+    margin-left: 10%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 35px;
+    color: #ffff;
+}
+a{
+    margin: 15px;
+    color: #ffff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.banner-area{
+    position: relative;
+    /* background-image: url(../img/smh.jpg); */
+    width: 100%;
+    height: 138vh;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.about-area{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 1000px;
+}
+.review-area{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    min-height: 2750px;
+}
+.art-area{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 2000px;
+}
+.watchonline-area{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 1000px;
+}
+.text-part{
+    width: 65%;
+    height: 80%;
+}
+.review-part{
+    width: 65%;
+    height: 80%;
+}
+h1{
+    font-size: 50px;
+    font-family: sans-serif;
+}
+p{
+    font-size: 24px;
+    line-height: 40.0px;
+}
+.about-area, .art-area{
+    background: #fefefe;
+}
+.review-area, .watchonline-area{
+    background:#262626;
+    color: #fff;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+.video-one{
+    position: relative;
+    right: 0px;
+    top:100px;
+    position: relative;
+    width: 100%;
+    height: 138vh;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.video-two{
+    position: relative;
+    left: 0px;
+    top:10px;
+    position: relative;
+    width: 100%;
+    height: 138vh;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.video-three{
+    position: relative;
+    right:0.0px;
+    top:10px;
+    position: relative;
+    width: 100%;
+    height: 138vh;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.video-four{
+    position: relative;
+    left:0.0px;
+    top:10px;
+    position: relative;
+    width: 100%;
+    height: 138vh;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.banner-area{
+    position: relative;
+    width: 100%;
+    height: 138vh;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.box{
+    display: none;
+    width: 100%;
+}
+
+#ftr{
+    position: relative;
+    text-align: center;
+    align-content: center;
+    color: #fff;
+    background-color: #d60000;
+    height: auto;
+    right: 0px;
+    width: 100%;
+}
+.foot{
+    background-color: #d60000;
+    width: 100%;
+}
+
+a:hover + .box,.box:hover{
+    display: block;
+    position: relative;
+    z-index: 100;
+}

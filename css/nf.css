@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+}
+
+h1{
+    font-size: 53px;
+    font-family: sans-serif;
+}
+
+p{
+    font-size: 24px;
+    line-height: 40.0px;
+}
+
+.notfound{
+    position: relative;
+    text-align: center;
+    align-content: center;
+    color: #fff;
+    background-color: #d60000;
+    height: auto;
+    right: 0px;
+    width: 100%;
+}
