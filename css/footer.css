@@ -1,0 +1,18 @@
+
+a{
+    margin: 15px;
+    color: #ffff;
+    text-decoration: none;
+    text-transform: lowercase;
+    margin-left: 15px;
+}
+
+.logo{
+    flex: 1 1 auto;
+    margin-left: 5%;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 33px;
+    color: #ffff;
+}

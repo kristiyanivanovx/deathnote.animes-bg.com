@@ -6,6 +6,7 @@ body{
 
 .navbar{
     position: fixed;
+    text-transform: uppercase;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,7 +28,6 @@ body{
 .logo{
     flex: 1 1 auto;
     margin-left: 5%;
-    text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: bold;
     font-size: 33px;
@@ -37,7 +37,6 @@ a{
     margin: 15px;
     color: #ffff;
     text-decoration: none;
-    text-transform: uppercase;
     margin-left: 15px;
 }
 
@@ -193,11 +192,10 @@ html{
     background-color: #d60000;
     width: 100%;
 }
-
 a:hover + .box,.box:hover{
     display: block;
     position: relative;
-    z-index: 100;
+    z-index: 1;
 }
 
 ::-webkit-scrollbar {
