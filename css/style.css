@@ -39,7 +39,6 @@ a{
     text-decoration: none;
     margin-left: 15px;
 }
-
 .banner-area{
     position: relative;
     /* background-image: url(../img/smh.jpg); */
@@ -192,6 +191,14 @@ html{
     background-color: #d60000;
     width: 100%;
 }
+
+a.designer:hover {
+    text-decoration:underline;
+}
+a.netflix:hover {
+    text-decoration:underline;
+}
+
 a:hover + .box,.box:hover{
     display: block;
     position: relative;
