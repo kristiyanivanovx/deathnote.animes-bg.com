@@ -1,22 +1,30 @@
 body{
     margin: 0;
     padding: 0;
-    font-family:sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h1{
     font-size: 53px;
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.gohome:hover {
+    text-decoration:underline;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
 }
 
 p{
     font-size: 24px;
     line-height: 40.0px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .notfound{
     position: relative;
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
     align-content: center;
     color: #fff;
     background-color: #d60000;
