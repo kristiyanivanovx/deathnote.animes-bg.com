@@ -26,9 +26,56 @@ p{
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     align-content: center;
+    color:#fff;
+    background-color: #d60000;
+    height: auto;
+    right: 0px;
+    width: 100%;
+}
+
+.foot{
+    position: absolute;
+    text-align: center;
+    align-content: center;
     color: #fff;
     background-color: #d60000;
     height: auto;
     right: 0px;
     width: 100%;
+    bottom: 0px;
+}
+
+a{
+    margin: 15px;
+    color: #ffff;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+a.designer:hover {
+    text-decoration:underline;
+}
+a.netflix:hover {
+    text-decoration:underline;
+}
+
+a:hover + .box,.box:hover{
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #000;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 10px #000;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 10px;
 }

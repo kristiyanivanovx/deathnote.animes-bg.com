@@ -12,7 +12,7 @@ body{
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color:#d60000;
+    background-image: linear-gradient(to bottom right, #240000, #e00606);
     width: 100%;
     min-height: 1%;
     z-index: 1; 
@@ -105,13 +105,12 @@ p{
     font-size: 24px;
     line-height: 40.0px;
 }
-.about-area, .art-area{
-    background: #fefefe;
-}
-.review-area, .watchonline-area{
-    background:#262626;
+
+.review-area, .watchonline-area, .about-area, .art-area{
+    background-image: linear-gradient(to bottom right, rgb(15, 15, 15), #303030);
     color: #fff;
 }
+
 html{
     scroll-behavior: smooth;
 }
@@ -164,6 +163,7 @@ html{
 }
 
 .banner-area{
+    background-image: linear-gradient(to bottom right, #000, #262626);
     position: relative;
     width: 100%;
     height: 138vh;
@@ -175,23 +175,15 @@ html{
     display: none;
     width: 100%;
 }
-
-#ftr{
-    position: relative;
+.foot{
+    position: absolute;
     text-align: center;
     align-content: center;
     color: #fff;
-    background-color: #d60000;
+    background-image: linear-gradient(to top right, #240000, #e00606);
     height: auto;
     right: 0px;
     width: 100%;
-    bottom: 0px;
-}
-
-.foot{
-    background-color: #d60000;
-    width: 100%;
-    bottom:0px;
 }
 
 a.designer:hover {
