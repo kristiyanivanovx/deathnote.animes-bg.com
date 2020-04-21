@@ -185,11 +185,13 @@ html{
     height: auto;
     right: 0px;
     width: 100%;
+    bottom: 0px;
 }
 
 .foot{
     background-color: #d60000;
     width: 100%;
+    bottom:0px;
 }
 
 a.designer:hover {
