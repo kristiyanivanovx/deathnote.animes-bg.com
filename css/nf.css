@@ -4,6 +4,39 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+/* Navbar, logo */
+
+.navbar{
+    position: fixed;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-image: linear-gradient(to bottom right, #240000, #e00606);
+    width: 100%;
+    min-height: 1%;
+    z-index: 1; 
+}
+
+.nav{
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    margin-right: 9%;
+    margin-left: 1%;
+}
+
+.logo{
+    flex: 1 1 auto;
+    margin-left: 3%;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 23px;
+    color: #ffff;
+}
+
 h1{
     font-size: 40px;
     font-family: 'Open Sans', sans-serif;
@@ -28,7 +61,7 @@ p{
     font-family: 'Open Sans', sans-serif;
     align-content: center;
     color:#fff;
-    background-image: linear-gradient(to bottom right, #240000, #e00606);
+    background-image: linear-gradient(to right, #240000, #e00606);
     height: auto;
     right: 0px;
     width: 100%;
