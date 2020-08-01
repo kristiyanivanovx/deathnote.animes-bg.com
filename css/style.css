@@ -246,7 +246,12 @@ html{
 a.designer:hover {
     text-decoration:underline;
 }
+
 a.netflix:hover {
+    text-decoration:underline;
+}
+
+a.soundtrack:hover {
     text-decoration:underline;
 }
 
