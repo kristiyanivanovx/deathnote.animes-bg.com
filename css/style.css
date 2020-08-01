@@ -115,7 +115,7 @@ a {
 
 .text-part {
     text-align: center;
-    width: 95%;
+    width: 80%;
     height: auto;
 }
 
@@ -234,6 +234,7 @@ p {
     #img1 {
         width: 75%;
     }
+    
 }
 @media (max-width: 768px) {
     .navbar-brand {

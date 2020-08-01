@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
@@ -6,7 +6,7 @@ body{
 
 /* Navbar, logo */
 
-.navbar{
+.navbar {
     position: fixed;
     text-transform: uppercase;
     display: flex;
@@ -27,7 +27,7 @@ hr.light-100 {
     margin-bottom: 1rem;
 }
 
-.nav{
+.nav {
     display: flex;
     justify-content: right;
     list-style: none;
@@ -35,7 +35,7 @@ hr.light-100 {
     margin-left: 1%;
 }
 
-.logo{
+.logo {
     flex: 1 1 auto;
     margin-left: 3%;
     letter-spacing: 1px;
@@ -49,20 +49,20 @@ h1{
     font-family: 'Open Sans', sans-serif;
 }
 
-.gohome:hover{
+.gohome:hover {
     text-decoration:underline;
     color: #fff;
     font-family: 'Open Sans', sans-serif;
 }
 
-p{
+p {
     font-size: 22px;
     margin: 10px;
     line-height: 37.0px;
     font-family: 'Open Sans', sans-serif;
 }
 
-.notfound{
+.notfound {
     position: relative;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
@@ -86,29 +86,87 @@ p{
     bottom: 0px;
 }
 
-.img-shrug{
+.img-shrug {
     width:100%;
     height: fit-content;
     margin:0; 
     padding:0; 
     align-content: center;
- }
+}
 
-a{
+a {
     margin: 15px;
     color: #ffff;
     text-decoration: none;
     margin-left: 15px;
 }
 
+@media (max-width: 992px) {
+    .foot {
+        visibility: hidden;
+    }
+    .navbar-brand {
+        font-size: 85%;
+    }
+    .display-4 {
+        font-size: 190%;
+    }
+    .navbar-nav li {
+        font-size: 85%;
+    }
+}
+@media (max-width: 768px) {
+    .foot {
+        visibility: hidden;
+    }
+    .navbar-brand {
+        font-size: 80%;
+    }
+    .display-4 {
+        font-size: 180%;
+    }
+    .navbar-nav li {
+        font-size: 80%;
+    }
+}
+@media (max-width: 640px) {
+    .foot {
+        visibility: hidden;
+    }
+    .navbar-brand {
+        font-size: 75%;
+    }
+    .display-4 {
+        font-size: 170%;
+    }
+    .navbar-nav li {
+        font-size: 75%;
+    } 
+}
+@media (max-width: 576px) {
+    .foot {
+        visibility: hidden;
+    }
+    .navbar-brand {
+        font-size: 70%;
+    }
+    .display-4 {
+        font-size: 160%;
+    }
+    .navbar-nav li {
+        font-size: 70%;
+    }
+}
+
 a.designer:hover {
     text-decoration:underline;
 }
+
 a.netflix:hover {
     text-decoration:underline;
 }
 
-a:hover + .box,.box:hover{
+a:hover + .box,.box:hover {
     display: block;
     position: relative;
     z-index: 1;
